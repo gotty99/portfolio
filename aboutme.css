@@ -1,0 +1,61 @@
+body {
+    background-image: url(img/board-bricks-brickwork-269063.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 140vh;
+    width: auto;
+    color: #fff;
+    text-shadow: 3px -2px 3px black;
+    padding: 25px 0 0 50px;
+    font-family: 'Merienda';
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+h1,
+p {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 48px;
+}
+p {
+    padding-top: 12px;
+    font-size: 24px;
+}
+.img-wrapp {
+    margin-top: 40px;
+    height: 500px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img1,
+.img2,
+.img3,
+.img4 {
+    height: 100%;
+    width: 25%;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    outline: 3px solid black;
+}
+.img1 {
+    background-image: url(img/odelo.jpg);
+}
+.img2 {
+    background-image: url(img/snjom.jpg);
+}
+.img3 {
+    background-image: url(img/klavir.jpg);
+    background-position: center right;
+}
+.img4 {
+    background-image: url(img/karlovci.jpg);
+    margin-right: 0;
+}

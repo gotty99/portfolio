@@ -1,0 +1,118 @@
+body {
+    background-image: url(img/background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    overflow: hidden;
+}
+
+.header {
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Merienda';
+    text-shadow: 3px -2px 3px black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 2%;
+}
+
+.main {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.halfCircle {
+    font-family: 'Merienda';
+    height: 100px;
+    width: 200px;
+    border-radius: 90px 90px 0 0;
+    background: #e2c8c8d2;
+    margin-right: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    font-size: 24px;
+    color: #fff;
+    text-shadow: 3px -2px 3px black;
+}
+
+.halfCircle:hover {
+    background: #ffffffd3;
+    cursor: pointer;
+}
+
+.halfCircle:last-child {
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gh,
+.tw,
+.ig,
+.fb {
+    height: 50px;
+    width: 60px;
+    background-color: #fff;
+    margin-right: 36px;
+    margin-top: 5%;
+    border: 1px solid;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fb {
+    margin-right: 0;
+}
+
+.gh:hover,
+.tw:hover,
+.ig:hover,
+.fb:hover {
+    background: #ffffffd3;
+    cursor: pointer;
+}
+
+.fab {
+    font-size: 35px;
+}
+
+.fa-github {
+    color: #6e5494;
+}
+
+.fa-twitter {
+    color: #00aced;
+}
+
+.fa-instagram {
+    color: #bc2a8d;
+}
+
+.fa-facebook-f {
+    color: #3B5998;
+}
+
+p {
+    color: white;
+    background: rgba(199, 192, 192, 0.548);
+    display: inline-block;
+    text-shadow: 3px -2px 3px black;
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
